@@ -8,4 +8,5 @@ while choice == "y".lower():
         print(f"\n{int(d*100)}%")
         print(f"Tip amount: ${tip:.2f}")
         print(f"Total amount: ${total:.2f}")
-    
+    choice = input("/" \
+    "\nContinue? (y/n): ") 
